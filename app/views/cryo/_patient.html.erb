@@ -1,0 +1,72 @@
+<div class="row">
+        <form>
+              <legend>Patient</legend>
+              
+                <div class="form-group">
+                      <fieldset>
+                        <label class="control-label" for="readOnlyInput">Todays date</label>
+                        <input class="form-control" id="readOnlyInput" type="text" placeholder=<%= Date.today %> readonly="">
+                      </fieldset>
+                </div>
+                
+                <div class="form-group">
+                      <fieldset>
+                        <label class="control-label" for="dateOfBirth">Date of birth</label>
+                        <input class="form-control" id="dateOfBirth" type="text" placeholder=<%= Date.today  %>>
+                      </fieldset>
+                </div>
+                
+                <div class="form-group">
+                      <fieldset>
+                        <label class="control-label" for="age">Age</label>
+                        <input class="form-control" id="readOnlyInput" type="text" placeholder=<%= Date.today - 10.years %> readonly="">
+                      </fieldset>
+                </div>
+
+              
+            <div class="form-group">
+                  <fieldset>
+                      <label for="gender-select">Gender </label>
+                      <select class="gender-select">
+                          <option value="1">Not known</option>
+                          <option value="2">Male</option>
+                          <option value="3">Female</option>
+                          <option value="3">Not specified</option>
+                      </select>
+                  </fieldset>
+                  
+            </div>
+              
+
+              
+            <div class="form-group">
+                      <fieldset>
+                        <label class="control-label" for="dateOfDeath">Date of death</label>
+                        <input class="form-control" id="dateOfDeath" type="text" placeholder=<%= Date.today  %>>
+                      </fieldset>
+            </div>
+            
+            <div class="form-group">
+                  <fieldset>
+                      <label for="comorb-select">Comorbidities </label>
+                      <select class="gender-select">
+                          <option value="1">Haematological</option>
+                          <option value="2">Neurological</option>
+                      </select>
+                  </fieldset>
+            </div>
+            
+            <fieldset class="form-group">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" value="" checked="">
+                  Suitable
+                </label>
+              </div>
+            </fieldset>
+            
+    <button type="submit" class="btn btn-primary">Submit</button>
+                  
+                  
+        </form>
+</div>

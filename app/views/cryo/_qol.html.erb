@@ -1,0 +1,38 @@
+<div class="row">
+        <form>
+            <legend>Assessment QoL</legend>
+              
+            <button type="submit" class="btn btn-primary btn-sm">Add new</button>
+            <p></p>
+              
+            
+            <div class="form-group">
+                      <fieldset>
+                        <label class="control-label" for="readOnlyInput">Assessment date</label>
+                        <input class="form-control" id="readOnlyInput" type="text" placeholder=<%= Date.today %> readonly="">
+                      </fieldset>
+            </div>
+            
+            <div class="form-group">
+                  <fieldset>
+                      <label for="gender-select">QOL Type</label>
+                      <select class="pain-select">
+                          <option value="1">Physical</option>
+                          <option value="2">Psychological</option>
+                      </select>
+                  </fieldset>
+            </div>
+            
+            <div class="form-group">
+                  <fieldset>
+                      <label for="gender-select">QOL Score</label>
+                      <select class="painscore-select">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                      </select>
+                  </fieldset>
+            </div>
+                  
+        </form>
+</div>

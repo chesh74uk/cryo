@@ -1,0 +1,2 @@
+module CryoHelper
+end

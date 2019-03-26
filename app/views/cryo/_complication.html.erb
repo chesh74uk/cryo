@@ -1,0 +1,48 @@
+<div class="row">
+    <form>
+        <legend>Complication (for this lesion : for this procedure)</legend>
+        
+        <div class="form-group">
+            <fieldset>
+                <label class="control-label" for="readOnlyInput">Date first noted or date of follow up</label>
+                <input class="form-control" id="readOnlyInput" type="text" placeholder=<%= Date.today %> readonly="">
+            </fieldset>
+        </div>
+        
+        <div class="form-group">
+            <fieldset>
+                <label class="control-label" for="readOnlyInput">Date of related procedure</label>
+                <input class="form-control" id="readOnlyInput" type="text" placeholder=<%= Date.today %> readonly="">
+            </fieldset>
+        </div>
+        
+        <div class="form-group">
+              <label for="exampleSelect2">WHO/SIR complications at time of procedure (multiple select)</label>
+              <select multiple="" class="form-control" id="exampleSelect2">
+                <option>Skin injury</option>
+                <option>Nerve injury</option>
+                <option>Bleeding requiring transfusion</option>
+                <option>Haematuria</option>
+              </select>
+        </div>
+        
+        <div class="form-group">
+              <label for="exampleSelect2">Severity</label>
+              <select multiple="" class="form-control" id="exampleSelect2">
+                <option>1 - Complication during the procedure which could be solved
+within the same session; no additional therapy, no postprocedure
+sequelae, no deviation from the normal posttherapeutic
+course</option>
+                <option>2 - Prolonged observation including overnight stay (as a
+deviation from the normal post-therapeutic course\48 h);
+no additional postprocedure therapy, no postprocedure
+sequelae</option>
+                <option>3 - Additional postprocedure therapy or prolonged hospital stay
+(48 h) required; no postprocedure sequelae</option>
+                <option>4 - Complication causing a permanent mild sequelae (resuming
+work and independent living)</option>
+              </select>
+        </div>
+            
+    </form>
+</div>

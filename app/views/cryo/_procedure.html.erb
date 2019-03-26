@@ -1,0 +1,136 @@
+<div class="row">
+    <form>
+        <legend>Procedure</legend>
+          
+            <div class="form-group">
+                  <fieldset>
+                    <label class="control-label" for="readOnlyInput">Procedure date</label>
+                    <input class="form-control" id="readOnlyInput" type="text" placeholder=<%= Date.today %> readonly="">
+                  </fieldset>
+            </div>
+            
+
+        <div class="form-group">
+                <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Weight (kg)</span>
+                      </div>
+                      <input type="text" class="form-control" aria-label="Weight">
+                </div>
+        </div>
+          
+        <div class="form-group">
+            <div class="input-group mb-3">
+                 <div class="input-group-prepend">
+                     <span class="input-group-text">Asa score</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Asa">
+            </div>
+        </div>
+          
+        <div class="form-group">
+                <fieldset>
+                    <label for="workingd-select">Primary clinical indication</label>
+                     <select class="location-select">
+                        <option value="1">Pain</option>
+                        <option value="2">Function</option>
+                        <option value="3">Oncological control</option>
+                        <option value="3">Mass effect</option>
+                      </select>
+                </fieldset>
+        </div>
+        
+        <div class="form-group">
+              <label for="exampleSelect2">Secondary clinical indication (multiple select)</label>
+              <select multiple="" class="form-control" id="exampleSelect2">
+                <option>Pain</option>
+                <option>Function</option>
+                <option>Oncological control</option>
+                <option>Mass effect</option>
+              </select>
+        </div>
+        
+        <div class="form-group">
+            <fieldset>
+                <label for="tech-select">Technical success?</label>
+                <select class="tech-select">
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </fieldset>
+        </div>
+        
+        <div class="form-group">
+            <label for="lesiond1">Lesion dimension 1 (cm)</label>
+            <input type="number" class="form-control" id="lesiond1" placeholder="(cm)">
+        </div>
+        
+        <div class="form-group">
+            <label for="lesiond2">Lesion dimension 2 (cm)</label>
+            <input type="number" class="form-control" id="lesiond2" placeholder="(cm)">
+        </div>
+        
+        <div class="form-group">
+            <label for="lesiond3">Lesion dimension 3 (cm)</label>
+            <input type="number" class="form-control" id="lesiond3" placeholder="(cm)">
+        </div>
+        
+        <div class="form-group">
+              <label for="exampleSelect2">Modality (multiple select)</label>
+              <select multiple="" class="form-control" id="exampleSelect2">
+                <option>Ultrasound (US)</option>
+                <option>CT</option>
+                <option>Cone-beam CT</option>
+                <option>MRI</option>
+              </select>
+        </div>
+        
+        <div class="form-group">
+            <fieldset>
+                <label class="control-label" for="readOnlyInput">Modality date</label>
+                <input class="form-control" id="readOnlyInput" type="text" placeholder=<%= Date.today %> readonly="">
+            </fieldset>
+        </div>
+        
+        <div class="form-group">
+            <label for="lesiond3">Reason for technical failure</label>
+            <input type="text" class="form-control" id="lesiond3" placeholder="Only if not technical success">
+        </div>
+        
+        <div class="form-group">
+            <label for="probes">No of probes</label>
+            <input type="number" class="form-control" id="probes">
+        </div>
+        
+        <div class="form-group">
+            <label for="probes">No of ice balls created</label>
+            <input type="number" class="form-control" id="probes">
+        </div>
+        
+        <div class="form-group">
+            <fieldset>
+                <label for="tech-select">Re-site of probes to create additional ice balls?</label>
+                <select class="tech-select">
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </fieldset>
+        </div>
+        
+        <div class="form-group">
+              <label for="exampleSelect2">WHO/SIR complications at time of procedure (multiple select)</label>
+              <select multiple="" class="form-control" id="exampleSelect2">
+                <option>Skin injury</option>
+                <option>Nerve injury</option>
+                <option>Bleeding requiring transfusion</option>
+                <option>Haematuria</option>
+              </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="probes">Hospitalisation length (days)</label>
+            <input type="number" class="form-control" id="probes">
+        </div>
+
+    </form>
+</div>
